@@ -7,6 +7,8 @@ function increment() {
 }
 
 function save() {
+    console.log(count)
+
     if (message == "You counted ") {
         message += count
     }
